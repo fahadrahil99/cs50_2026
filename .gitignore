@@ -1,0 +1,34 @@
+# ==========================================
+# Operating System & Hybrid Environment Junk
+# ==========================================
+# Windows metadata and thumbnail caches
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+
+# macOS junk (in case you clone this on a Mac later)
+.DS_Store
+
+# ==========================================
+# IDE & Editor Settings
+# ==========================================
+# VS Code workspace settings (optional, but standard to ignore)
+.vscode/
+
+# ==========================================
+# Build Artifacts & Compiled Binaries
+# ==========================================
+# Standard C object files
+*.o
+*.out
+
+# Windows executables (if compiled via Interop)
+*.exe
+
+# Specific CS50 compiled binaries (Add these as you build them)
+# Because Linux binaries often don't have file extensions, 
+# you have to list the specific program names.
+hello
+mario
+cash
+credit
